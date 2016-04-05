@@ -1,0 +1,117 @@
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+
+    width: 100%;
+
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+
+  padding: 0 15px;
+
+}
+.icon-block .material-icons {
+
+  font-size: inherit;
+
+}
+
+footer.page-footer {
+
+  margin: 0;
+
+}
+
+.icon-big {
+
+ font-size: 7rem;
+
+}
+
+.over-br {
+
+  color: #009688;
+  text-shadow: 0 1px 0 black;
+
+}
+
+.over-br-p {
+
+  text-shadow: 0 1px 0 black;
+  color: #80CBC4;
+}
+
+
+#dull {
+
+  -webkit-filter: grayscale(50%); /* Chrome, Safari, Opera */
+  filter: grayscale(50%);
+
+}
+
+.pda-logo {
+
+  height: 64px;
+  width: 64px;
+
+}
+
+.icons-color {
+
+  color: #009688;
+
+}
+
+.smaller {
+
+  font-size: 1.5rem;
+
+}
+
+.fade-in {
+  -webkit-transition:opacity .5s ease-out;
+  -moz-transition:opacity .5s ease-out;
+  -ms-transition:opacity .5s ease-out;
+  -o-transition:opacity .5s ease-out;
+  transition:opacity .5s ease-out;
+  opacity:0.5;
+}
+
+.fade-in:hover {
+  opacity:1;
+}
